@@ -8,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BejeweledBot", "BejeweledBo
 		{23178A3D-2AC0-419A-B1B6-59CA45191270} = {23178A3D-2AC0-419A-B1B6-59CA45191270}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capture", "..\..\Direct3DHook\Capture\Capture.csproj", "{23178A3D-2AC0-419A-B1B6-59CA45191270}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capture", "..\Direct3DHook\Capture\Capture.csproj", "{23178A3D-2AC0-419A-B1B6-59CA45191270}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
