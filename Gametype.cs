@@ -26,7 +26,7 @@ namespace BejeweledBot
                 case Gametype.Classic:
                     BoardLocation = new Point(334, 47);
                     ActiveGame = (new Point(198, 699), Color.FromArgb(69, 0, 39));
-                    ResetGame = (new Point(579, 687), Color.FromArgb(82, 0, 34)); // Repair
+                    ResetGame = (new Point(579, 687), Color.FromArgb(82, 0, 34));
                     Type = Gametype.Classic;
                     break;
                 case Gametype.Lightning:
@@ -38,13 +38,13 @@ namespace BejeweledBot
                 case Gametype.Zen:
                     BoardLocation = new Point(334, 47);
                     ActiveGame = (new Point(198, 699), Color.FromArgb(68, 0, 38));
-                    ResetGame = (new Point(591, 712), Color.FromArgb(82, 0, 34)); // Unknown
+                    ResetGame = (new Point(591, 712), Color.FromArgb(82, 0, 34)); 
                     Type = Gametype.Zen;
                     break;
                 case Gametype.Ice:
                     BoardLocation = new Point(334, 73);
                     ActiveGame = (new Point(198, 699), Color.FromArgb(89, 0, 17));
-                    ResetGame = (new Point(591, 712), Color.FromArgb(82, 0, 34)); // Unknown
+                    ResetGame = (new Point(591, 712), Color.FromArgb(82, 0, 34)); 
                     break;
                 default:
                     throw new ArgumentException("Invalid gametype parameter passed to GametypeConfiguration constructor.");
